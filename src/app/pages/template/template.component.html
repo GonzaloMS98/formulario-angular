@@ -10,7 +10,9 @@
 
         <input class="form-control"
                type="text"
-               placeholder="Nombre" name="nombre" ngModel>
+               placeholder="Nombre" 
+               name="nombre" 
+               [ngModel]="info.nombre">
       </div>
     </div>
 
@@ -20,7 +22,9 @@
 
         <input class="form-control"
                type="text"
-               placeholder="Apellido" name="apellido" ngModel>
+               placeholder="Apellido" 
+               name="apellido" 
+               [ngModel]="info.apellido">
       </div>
     </div>
 
@@ -32,7 +36,9 @@
 
       <input class="form-control"
              type="email"
-             placeholder="Correo electrónico" name="correo" ngModel>
+             placeholder="Correo electrónico" 
+             name="correo" 
+             [ngModel]="info.correo">
     </div>
   </div>
 

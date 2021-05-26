@@ -10,6 +10,11 @@ export class TemplateComponent implements OnInit {
 
   constructor() { }
 
+  info = {
+    nombre: 'Juan',
+    apellido: 'Perez',
+    correo: 'juanperez@hotmail.com'
+  };
   guardar = (formulario) => {
     console.log(formulario.form.value);
   }
